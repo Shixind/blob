@@ -1,0 +1,19 @@
+{
+  "name": "development-manual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blob:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev blob --temp .temp",
+    "blob:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build blob"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-nprogress": "^1.9.9",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.9"
+  }
+}

@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# vuepress temp
+.temp
+
+# lock file
+*.lock
